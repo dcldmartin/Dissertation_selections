@@ -1,0 +1,18 @@
+*.webloc
+*.Rhistory
+
+# only actual notebook snapshots, no checkpoints
+.ipynb_checkpoints/*
+**/.ipynb_checkpoints/**
+**/.ipynb_checkpoints/**
+
+# Don't track weird Word files you don't want:
+*~$*.docx
+
+# Don't track anything that has lots of binary data files, which I've consistently labeled 'Data'
+
+7_Data/
+
+# Don't track any PDFs
+
+**/*.pdf
